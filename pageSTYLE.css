@@ -19,3 +19,9 @@ body {
   padding-left: 28px;
   padding-bottom: 4px;
 }
+
+a,
+a:visited {
+  text-decoration: none;
+  color: blue;
+}
