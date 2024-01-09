@@ -25,3 +25,7 @@ a:visited {
   text-decoration: none;
   color: blue;
 }
+
+p {
+  text-align: justify;
+}
