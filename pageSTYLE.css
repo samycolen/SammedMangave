@@ -1,14 +1,15 @@
 html {
-  font-size: 100%;
+  font-size: 136%;
   overflow-y: scroll;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-family: sans-serif;
 }
 
 body {
   margin: auto;
   padding: 1em;
-  max-width: 70%;
+  max-width:45%;
 }
 
 .Mainheader {
@@ -28,4 +29,10 @@ a:visited {
 
 p {
   text-align: justify;
+}
+
+.titleCSS{
+  color: #2b6cc2
+  text-decoration: none;
+
 }
