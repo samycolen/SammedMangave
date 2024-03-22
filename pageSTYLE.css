@@ -9,7 +9,7 @@ html {
 body {
   margin: auto;
   padding: 1em;
-  max-width:45%;
+  max-width: 50%;
 }
 
 .Mainheader {
@@ -30,9 +30,57 @@ a:visited {
 p {
   text-align: justify;
 }
-
-.titleCSS{
-  color: #2b6cc2
+/*css for the main page links */
+.mainPageLinks a {
+  color: #2b6cc2;
   text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+/* css for the title of essay*/
+.titleCSS {
+  color: #2b6cc2;
+  text-decoration: none;
+}
+/* Style for the essay index */
+.essayIndex {
+  list-style: none; /* Remove default list styles */
+  margin-bottom: 20px;
+}
 
+.essayIndex a {
+  text-decoration: none;
+  color: #2b6cc2;
+}
+
+.essayIndex b {
+  display: block;
+  color: black;
+  font-size: 70%;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 11px;
+  color: #999;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.essayIndex:last-child {
+  margin-bottom: 50px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.EssaysFooter {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 41%;
+}
+.footerEmail {
+  text-decoration: none;
+  color: #2b6cc2;
 }
