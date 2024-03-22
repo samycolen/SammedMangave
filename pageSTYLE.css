@@ -31,18 +31,19 @@ p {
   text-align: justify;
 }
 /*css for the main page links */
+
+.mainPageLinks{
+  margin-bottom: 9px;
+}
 .mainPageLinks a {
   color: #2b6cc2;
   text-decoration: none;
+ 
 }
 li {
   list-style-type: none;
 }
-/* css for the title of essay*/
-.titleCSS {
-  color: #2b6cc2;
-  text-decoration: none;
-}
+
 /* Style for the essay index */
 .essayIndex {
   list-style: none; /* Remove default list styles */
