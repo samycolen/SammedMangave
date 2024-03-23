@@ -45,9 +45,9 @@ li {
 
 /* Style for the essay index */
 .essayIndex {
-  list-style: none; /* Remove default list styles */
+  list-style: none;
   margin-bottom: 20px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .essayIndex a {
