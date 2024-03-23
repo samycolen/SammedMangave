@@ -31,7 +31,6 @@ p {
   text-align: justify;
 }
 
-
 /*css for the main page blocks*/
 .MainPageNavBlocks {
   width: 63%;
@@ -45,11 +44,12 @@ p {
   margin: 0;
   padding-top: 20px;
 }
+
+/*this class is for main page links*/
 .divone {
   margin-top: 30px;
   margin-left: 10px;
 }
-
 
 /*css for the main page links */
 
@@ -70,26 +70,26 @@ p {
 li {
   list-style-type: none;
 }
-
+/* this class is for right side image as a block for a while*/
 .imageCSS {
   background-color: rgb(246, 245, 245);
   float: right;
   width: 33%;
-  padding:13px;
+  padding: 13px;
   margin: 4.5px;
   padding-bottom: 38%;
   border-radius: 3px;
 }
 /* Style for the essay index */
-.container h1{
+.container h1 {
   background-color: #eff4fa;
-  padding:10px;
+  padding: 10px;
   padding-left: 20px;
   border-radius: 4px;
   margin-left: 10px;
   margin-right: 10px;
-  
 }
+
 .essayIndex {
   list-style: none;
   margin-bottom: 20px;
@@ -111,7 +111,6 @@ li {
   color: #8a8989;
   font-weight: bold;
   text-transform: uppercase;
-  
 }
 .essayIndex:last-child {
   margin-bottom: 50px;
@@ -136,13 +135,79 @@ footer {
 
 /* CSS for mobile view */
 @media (max-width: 767px) {
+  html {
+    font-size: 60%;
+  }
   body {
-    width: 100%;
+    width: 97%;
     margin: auto;
     padding: 0.5em;
   }
   .Mainheader {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  /*css for the main page blocks*/
+  .MainPageNavBlocks {
+    width: 53%;
+  }
+
+  /*css for the main page links */
+
+  .mainPageLinks {
+    margin-left: 5px;
+  }
+  /* this class is for right side image as a block for a while*/
+  .imageCSS {
+    margin-top: 20px;
+  }
+  /* Style for the essay index */
+  .container h1 {
+    padding: 5px;
+    padding-left: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .essayIndex {
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+
+  .essayIndex a {
+    text-decoration: none;
+    color: #2b6cc2;
+    font-family: "Oxygen", sans-serif;
+  }
+
+  .essayIndex b {
+    display: block;
+    color: black;
+    font-size: 90%;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;
+    color: #8a8989;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .essayIndex:last-child {
+    margin-bottom: 50px;
+  }
+
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .EssaysFooter {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+  }
+  .footerEmail {
+    text-decoration: none;
+    color: #2b6cc2;
   }
 }

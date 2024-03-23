@@ -25,13 +25,11 @@ body {
   padding-left: 25px;
 }
 
-
 a,
 a:visited {
   text-decoration: none;
   color: blue;
 }
-
 
 p {
   text-align: justify;
@@ -66,13 +64,16 @@ footer {
 
 /* CSS for mobile view */
 @media (max-width: 767px) {
+  html {
+    font-size: 60%;
+  }
   body {
-    width: 100%;
+    width: 97%;
     margin: auto;
     padding: 0.5em;
   }
   .Mainheader {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
