@@ -1,42 +1,60 @@
+/* Only For essay page  */
 html {
-    font-size: 136%;
-    overflow-y: scroll;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    font-family: sans-serif;
-  }
-  
-  body {
-    margin: auto;
-    padding: 1em;
-    max-width:50%;   
-    line-height: 1.6;
-    color: #555;
-    font-family: "Oxygen", sans-serif;
-    font-weight: 400;
+  font-size: 136%;
+  overflow-y: scroll;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: sans-serif;
+}
 
-  }
-  
-  .Mainheader {
-    background-color: black;
-    color: white;
-    border-radius: 4px;
-    padding: 3px;
-    padding-left: 28px;
-    padding-bottom: 4px;
-  }
-  
-  a,
-  a:visited {
-    text-decoration: none;
-    color: blue;
-  }
-  
-  p {
-    text-align: justify;
-  }
-  
-  /* css for the title of essay*/
+body {
+  width: 70%;
+  margin: auto;
+  padding: 1em;
+  line-height: 1.6;
+  color: #444;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+}
+
+.Mainheader {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 3px;
+  padding-left: 25px;
+}
+
+
+a,
+a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+
+p {
+  text-align: justify;
+}
+
+/*css for footer date*/
+.date {
+  font-size: 90%;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  color: #8a8989;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 25px;
+}
+
+/* css for the title of essay*/
 .titleCSS {
   color: #2b6cc2;
   text-decoration: none;
@@ -45,12 +63,16 @@ html {
   line-height: 1.1;
   letter-spacing: -0.015em;
 }
-  
-
 
 /* CSS for mobile view */
 @media (max-width: 767px) {
   body {
-    width: 100%; /* Full width for mobile devices */
+    width: 100%;
+    margin: auto;
+    padding: 0.5em;
+  }
+  .Mainheader {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

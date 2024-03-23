@@ -1,5 +1,6 @@
+/**/
 html {
-  font-size: 136%;
+  font-size: 120%;
   overflow-y: scroll;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -9,7 +10,7 @@ html {
 body {
   margin: auto;
   padding: 1em;
-  width: 50%;
+  width: 70%;
 }
 
 .Mainheader {
@@ -17,33 +18,78 @@ body {
   color: white;
   border-radius: 4px;
   padding: 3px;
-  padding-left: 28px;
-  padding-bottom: 4px;
+  padding-left: 25px;
 }
 
 a,
 a:visited {
   text-decoration: none;
-  color: blue;
+  color: #2b6cc2;
 }
 
 p {
   text-align: justify;
 }
+
+
+/*css for the main page blocks*/
+.MainPageNavBlocks {
+  width: 63%;
+  float: left;
+}
+.MainPageNavBlocks a {
+  margin: 0;
+}
+
+.MainPageNavBlocks p {
+  margin: 0;
+  padding-top: 20px;
+}
+.divone {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+
 /*css for the main page links */
 
 .mainPageLinks {
   margin-bottom: 9px;
+  margin-left: 10px;
 }
+.mainPageLinks p a {
+  color: #2b6cc2;
+  text-decoration: none;
+}
+
 .mainPageLinks a {
   color: #2b6cc2;
   text-decoration: none;
 }
+
 li {
   list-style-type: none;
 }
 
+.imageCSS {
+  background-color: rgb(246, 245, 245);
+  float: right;
+  width: 33%;
+  padding:13px;
+  margin: 4.5px;
+  padding-bottom: 38%;
+  border-radius: 3px;
+}
 /* Style for the essay index */
+.container h1{
+  background-color: #eff4fa;
+  padding:10px;
+  padding-left: 20px;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
 .essayIndex {
   list-style: none;
   margin-bottom: 20px;
@@ -53,17 +99,19 @@ li {
 .essayIndex a {
   text-decoration: none;
   color: #2b6cc2;
+  font-family: "Oxygen", sans-serif;
 }
 
 .essayIndex b {
   display: block;
   color: black;
-  font-size: 70%;
+  font-size: 90%;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 11px;
+  font-size: 14px;
   color: #8a8989;
   font-weight: bold;
   text-transform: uppercase;
+  
 }
 .essayIndex:last-child {
   margin-bottom: 50px;
@@ -79,7 +127,7 @@ footer {
   position: fixed;
   right: 0;
   bottom: 0;
-  width: 41%;
+  width: 30%;
 }
 .footerEmail {
   text-decoration: none;
@@ -93,7 +141,8 @@ footer {
     margin: auto;
     padding: 0.5em;
   }
-  .Mainheader{
+  .Mainheader {
     padding-left: 10px;
+    padding-right: 10px;
   }
 }
