@@ -136,7 +136,7 @@ footer {
 /* CSS for mobile view */
 @media (max-width: 767px) {
   html {
-    font-size: 60%;
+    font-size: 71%;
   }
   body {
     width: 97%;
@@ -150,6 +150,7 @@ footer {
   /*css for the main page blocks*/
   .MainPageNavBlocks {
     width: 53%;
+    padding-left: 5px;
   }
 
   /*css for the main page links */
