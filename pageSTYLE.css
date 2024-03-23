@@ -9,7 +9,7 @@ html {
 body {
   margin: auto;
   padding: 1em;
-  max-width: 50%;
+  width: 50%;
 }
 
 .Mainheader {
@@ -32,13 +32,12 @@ p {
 }
 /*css for the main page links */
 
-.mainPageLinks{
+.mainPageLinks {
   margin-bottom: 9px;
 }
 .mainPageLinks a {
   color: #2b6cc2;
   text-decoration: none;
- 
 }
 li {
   list-style-type: none;
@@ -48,6 +47,7 @@ li {
 .essayIndex {
   list-style: none; /* Remove default list styles */
   margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 .essayIndex a {
@@ -61,7 +61,7 @@ li {
   font-size: 70%;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 11px;
-  color: #999;
+  color: #8a8989;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -86,10 +86,14 @@ footer {
   color: #2b6cc2;
 }
 
-
 /* CSS for mobile view */
 @media (max-width: 767px) {
   body {
-    width: 100%; /* Full width for mobile devices */
+    width: 100%;
+    margin: auto;
+    padding: 0.5em;
+  }
+  .Mainheader{
+    padding-left: 10px;
   }
 }
