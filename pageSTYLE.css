@@ -85,3 +85,11 @@ footer {
   text-decoration: none;
   color: #2b6cc2;
 }
+
+
+/* CSS for mobile view */
+@media (max-width: 767px) {
+  body {
+    width: 100%; /* Full width for mobile devices */
+  }
+}

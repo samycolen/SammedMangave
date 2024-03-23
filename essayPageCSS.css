@@ -46,3 +46,11 @@ html {
   letter-spacing: -0.015em;
 }
   
+
+
+/* CSS for mobile view */
+@media (max-width: 767px) {
+  body {
+    width: 100%; /* Full width for mobile devices */
+  }
+}
