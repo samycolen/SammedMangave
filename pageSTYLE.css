@@ -175,4 +175,8 @@ footer {
   .essayIndex b {
     font-size: 71%;
   }
+  .MainPageNavBlocks p {
+    margin: 0;
+    padding-top: 10px;
+  }
 }
