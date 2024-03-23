@@ -169,46 +169,7 @@ footer {
     margin-left: 8px;
     margin-right: 8px;
   }
-
-  .essayIndex {
-    margin-bottom: 20px;
-    margin-left: 15px;
-  }
-
-  .essayIndex a {
-    text-decoration: none;
-    color: #2b6cc2;
-    font-family: "Oxygen", sans-serif;
-  }
-
   .essayIndex b {
-    display: block;
-    color: black;
-    font-size: 90%;
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 14px;
-    color: #8a8989;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  .essayIndex:last-child {
-    margin-bottom: 50px;
-  }
-
-  footer {
-    margin-top: 20px;
-    text-align: center;
-    padding-top: 20px;
-  }
-
-  .EssaysFooter {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 30%;
-  }
-  .footerEmail {
-    text-decoration: none;
-    color: #2b6cc2;
+    font-size: 71%;
   }
 }
